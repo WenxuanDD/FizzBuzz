@@ -6,6 +6,10 @@ package lab1;
 class FizzBuzz {
 
     public static void main(String[] args) {
+        extracted();
+    }
+
+    private static void extracted() {
         int i = 1;
         while ( i < 100 ) {
 
